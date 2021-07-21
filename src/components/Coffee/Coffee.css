@@ -1,0 +1,33 @@
+.coffee {
+    background-color: white;
+    width: 100%;
+    margin-bottom: 65px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.4s;
+}
+
+.coffee:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.coffee img {
+    width: 100%;
+}
+
+.coffee-content {
+    margin: 25px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px 30px 20px 30px;
+}
+
+.coffee-content h3 {
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+
+.coffee-content p {
+    font-size: 1.15rem;
+    margin: 1px 0px;
+}
