@@ -7,6 +7,7 @@ import coffeesData from './coffeesData';
 import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 import CoffeeDetails from './components/CoffeeDetails/CoffeeDetails';
 import Cart from './components/Cart/Cart';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Route path='/' exact render={props => <Coffees coffees={coffees} /> }/>
       <Route path='/coffee/:id' render={props => <CoffeeDetails match={props.match} />} />
       <Route path='/cart' component={Cart} />
+      <Route component={Footer} />
     </Router>
   );
 }
