@@ -9,10 +9,11 @@ const Nav = () => {
                 <h1>COFFEE BEAN</h1>
             </Link>
             <ul>
-                <li>link1</li>
-                <li>link1</li>
-                <li>link1</li>
-                <li>link1</li>
+                <Link to='/'><li>link1</li></Link>
+                <Link to='/'><li>link1</li></Link>
+                <Link to='/'><li>link1</li></Link>
+                <Link to='/cart'><li>Cart</li></Link>
+                {/* <i className="fas fa-shopping-cart"></i> */}
             </ul>
         </nav>
     )

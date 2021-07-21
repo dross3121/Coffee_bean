@@ -23,10 +23,10 @@ nav a {
 nav ul {
     display: flex;
     flex-direction: row;
-    margin-right: 3%;
+    margin-right: 6%;
 }
 
 nav li {
     list-style-type: none;
-    margin-left: 15px;
+    margin-left: 5px;
 }

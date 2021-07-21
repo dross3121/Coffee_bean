@@ -1,0 +1,14 @@
+.cart {
+    margin: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cart h2 {
+    padding-top: 25px;
+    margin-left: 5%;
+}
+
