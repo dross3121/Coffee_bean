@@ -12,8 +12,8 @@ const Nav = () => {
                 <Link to='/'><li>link1</li></Link>
                 <Link to='/'><li>link1</li></Link>
                 <Link to='/'><li>link1</li></Link>
-                <Link to='/cart'><li>Cart</li></Link>
-                {/* <i className="fas fa-shopping-cart"></i> */}
+                <Link to='/cart'><li><i className="fas fa-shopping-cart"></i>(1)</li></Link>
+                
             </ul>
         </nav>
     )

@@ -7,10 +7,10 @@ import cartData from '../../cartData'
 const Cart = () => {
     const [cart, setCart] = useState(cartData)
     return (
-        <div className='cart'>
+        <main className='cart'>
             <h2>Shopping Cart</h2>
             {cart.map(item => <CartItem item={item} key={item.id} />)}
-        </div>
+        </main>
     )
 }
 

@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'
 
 const Coffees = ({ coffees }) => {
     return (
-        <div className='coffees'>
+        <main className='coffees'>
             {coffees && coffees.map(coffee => <Link to={`/coffee/${coffee.id}`}><Coffee coffee={coffee} /></Link>)}
-        </div>
+        </main>
     )
 }
 

@@ -19,9 +19,9 @@ const CartItem = ({ item }) => {
                 </div>
                 <div className='cart-item-detail'>
                     <div className="add">
-                        <i class="fas fa-plus"></i>
+                        <i className="fas fa-plus"></i>
                         <p>1</p>
-                        <i class="fas fa-minus"></i>
+                        <i className="fas fa-minus"></i>
                     </div>
                 </div>
                 <div className='cart-item-detail'>

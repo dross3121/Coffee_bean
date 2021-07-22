@@ -19,7 +19,7 @@ function App() {
       <Route path='/' exact component={Hero} />
       <Route path='/' exact render={props => <Coffees coffees={coffees} /> }/>
       <Route path='/coffee/:id' render={props => <CoffeeDetails match={props.match} />} />
-      <Route path='/cart' component={Cart} />
+      <Route path='/cart' exact component={Cart} />
       <Route component={Footer} />
     </Router>
   );
