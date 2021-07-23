@@ -1,9 +1,77 @@
 .coffee-details {
-    height: 90vh;
-    margin: 10%;
+    margin: 5% 15%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
 }
 
-.coffee-details h1 {
+.coffee-details h2 {
     margin: 0;
-    margin: 0;
+}
+
+.coffee-details img {
+    margin: 25px 0;
+    width: 25%;
+}
+
+.coffee-details-content {
+    margin: 25px 0;
+}
+
+.coffee-details-content .weight {
+    border: 1px solid darkgray;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.coffee-details-content span {
+    margin-right: 10px;
+}
+
+.coffee-details-content span:hover {
+    border: 1px solid black;
+}
+
+.coffee-details-content div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#selected-weight {
+    border: 3px solid black;
+}
+
+.coffee-details-content button {
+    width: 100%;
+    padding: 15px 0;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: inherit;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: none;
+    transition: .5s;
+}
+
+.coffee-details-content button:hover {
+    transform: scale(1.05);
+}
+
+.coffee-details-content button:active {
+    transform: scale(.95);
+}
+
+@media only screen and (max-width: 960px) {
+    .coffee-details img {
+        margin: 25px 0;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .coffee-details {
+        flex-direction: column;
+        align-items: center;
+    }
 }
