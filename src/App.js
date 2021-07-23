@@ -15,12 +15,12 @@ function App() {
   
   return (
     <Router className="App">
-      <Route path='/' component={Nav} />
+      <Nav />
       <Route path='/' exact component={Hero} />
       <Route path='/' exact render={props => <Coffees coffees={coffees} /> }/>
       <Route path='/coffee/:id' render={props => <CoffeeDetails match={props.match} />} />
       <Route path='/cart' exact component={Cart} />
-      <Route component={Footer} />
+      <Footer />
     </Router>
   );
 }
